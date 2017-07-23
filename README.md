@@ -1,6 +1,6 @@
 # WORD FINDER
 
-To run the code use: ./server.pl daemon --listen http://0.0.0.0:8080
+To run the code use: ./server.pl daemon --listen http://0.0.0.0:80
 
 This will start the web server, listening on port 8080 from all addresses.
 

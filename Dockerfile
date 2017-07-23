@@ -11,10 +11,8 @@ ADD . /app
 RUN /bin/sh /app/setup.sh
 
 # Make port 80 available to the world outside this container
-EXPOSE 8080
+EXPOSE 80
 
-# Define environment variable
-ENV NAME World
 
 # Run app.py when the container launches
-CMD ["perl", "server.pl","daemon","--listen","http://0.0.0.0:8080"]
+CMD ["perl", "server.pl","daemon","--listen","http://0.0.0.0:80"]
