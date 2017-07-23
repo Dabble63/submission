@@ -2,7 +2,7 @@
 
 To run the code use: ./server.pl daemon --listen http://0.0.0.0:80
 
-This will start the web server, listening on port 8080 from all addresses.
+This will start the web server, listening on port 80 from all addresses.
 
 To run the unit tests: ./server.pl test
 
